@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-server-backend Odoo addons",
     version=version,
     install_requires=[
+        'odoo12-addon-base_default_lang_translate',
         'odoo12-addon-base_external_dbsource',
         'odoo12-addon-base_external_dbsource_mssql',
         'odoo12-addon-base_external_dbsource_mysql',
@@ -17,6 +18,7 @@ setuptools.setup(
         'odoo12-addon-base_import_match',
         'odoo12-addon-base_suspend_security',
         'odoo12-addon-base_user_role',
+        'odoo12-addon-base_user_role_company',
         'odoo12-addon-base_user_role_history',
         'odoo12-addon-base_user_role_profile',
         'odoo12-addon-base_user_role_profile_example',
@@ -25,5 +27,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 12.0',
     ]
 )
